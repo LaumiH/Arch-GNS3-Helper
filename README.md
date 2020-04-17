@@ -11,6 +11,13 @@ A user with sudo privilidges. `git` needs to be installed to clone the repo. Mos
 
 The `install-gns3.sh` script will automate most of the installation process.
 
+My setup, for which the script works smoothly:
+- 5.5.16-1-MANJARO
+- python 3.8
+- pip 20.0.2
+- aur/python-pypi2pkgbuild-git 0.1.r95.g8a8e1f0-1
+- gns3 v2.2.7
+
 ## Features
 
 ### Error checking
@@ -40,7 +47,7 @@ fi
 The script aims to provide a complete and functioning GNS3 experience. Using the script is simple. Recommended usage is to clone the repo and to execute the script via bash.
 
 ```bash
-git clone https://github.com/SirToffski/Arch-GNS3-Helper.git
+git clone https://github.com/LaumiH/Arch-GNS3-Helper.git
 cd Arch-GNS3-Helper/
 bash install-gns3.sh
 ```
@@ -263,3 +270,4 @@ $ sudo tee -a /usr/share/applications/gns3.desktop > /dev/null << EOL
 # Changelog
 June 29th 2019
 * As usual, there were a ton of minor bugs in the initial commit. The script should now be completely functional. Some cosmetic changes will be added to make the script more readable.
+
